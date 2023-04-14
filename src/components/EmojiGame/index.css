@@ -1,0 +1,23 @@
+/* Write your code here. */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #6a59ff, #9796f0, #fbc7d4);
+}
+.nav-container {
+  background-color: #ffffff3d;
+  color: white;
+}
+.emoji-game-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.container-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+}

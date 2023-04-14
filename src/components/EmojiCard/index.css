@@ -1,0 +1,16 @@
+/* Write your code here. */
+.emoji-btn {
+  padding: min(2em, 3vw);
+  background-color: rgba(255, 255, 255, 0.211);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #ffffff55;
+  cursor: pointer;
+}
+
+.emojiItem img {
+  max-width: min(60px, 10vw);
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
+}
